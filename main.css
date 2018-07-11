@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top-image {
+	width: 100%;
+	height: auto;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.slogan {
+	font-size: 70px;
+	margin-left:3%;
+	margin-top: 25%; 
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 50px black;
+}
+
+nav ul {
+    padding: 0;
+	list-style: none;
+    margin-top:20px;
+}
+
+nav li {
+    margin-right: 1%;
+    margin-left: 1%;
+    display: inline;
+    font-size: 30px;
+}
+
+.company-name {
+    background: blue !important;
+    padding: 10px;
+    font-size: 46px;
+}
+
+#about{
+    margin-top: 500px;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 10px
+}
+
+
+.about-text {
+
+}
+
+
+
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 600px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
