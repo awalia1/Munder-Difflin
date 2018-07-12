@@ -3,11 +3,16 @@
 // window.onscroll = function() {
 //     for(i = 0; i < sections.length; i++){
 //         if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-//             sections[i].style.display="block";
+//             sections[i].classList.remove('hidden');
 //         }
 //     }
 // };
 
-function buy(){
-	alert("you bought something");
+var items = document.getElementsByTagName("input");
+
+function buyIt() {
+	alert("Your order has been added to your account!");
+	for(i=0;i<items.length;i++){
+		items[i].value = 0;
+	}
 }

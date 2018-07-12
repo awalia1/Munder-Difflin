@@ -11,8 +11,8 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#boss">Staff</a></li>
 				<li class="company-name">Munder Dufflin</li>
-				<li><a href="products">Shop</a></li>
-				<li><a href="contact">Contact</a></li>
+				<li><a href="#products">Shop</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 			<p class="slogan">Where Paper Happens<span class= "blinking-period">.</span></p>
@@ -23,7 +23,7 @@
 		<img class="top-image" src="images/crumpled_paper.jpg">
 	</div>
 
-<section>
+<section class="hidden">
 	<div id="about" class="padding-top-bottom">
 		<div class="container">
 			<h1>About Us</h1>
@@ -36,7 +36,7 @@
 	</div>
 </section>
 
-<section>
+<section class="hidden">
 	<div id="boss" class="padding-top-bottom">
 		<div class="container">
 			<h1>The Boss</h1>
@@ -53,7 +53,7 @@
 	</div>
 </section>
 
-<section>
+<section class="hidden">
 	<div class="staff-cards padding-top-bottom">
 		<div class="container">
 			<h1> The Team </h1>
@@ -134,7 +134,7 @@
 	</div>
 </section>
 
-<section>
+<section class="hidden">
 	<div id="products" class="padding-top-bottom">
 		<div class="container">
 			<h1>Our Products</h1>
@@ -152,46 +152,46 @@
 	</div>
 </section>
 
-<section>
+<section class="hidden">
 	<div id="shop" class="padding-top-bottom">
 		<div class="container">
 		<h1>Shop</h1>
 		<hr>
 			<div class="shop-grid">
 				<div class="shop-section paper-one first-two-papers">
-					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
+					<img class="shop-image" src="images/stationary-paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
-					<input class="number-of-buys" type="number" min="0">
-					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
+					<input class="number-of-buys" type="number" placeholder="0" min="0">
+					<button type="submit" value="submit" onclick="buyIt()" class="buy">Buy</button>
 				</div>
 				<div class="shop-section paper-two first-two-papers">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
-					<h2>Stationary</h2>
+					<h2>Holiday</h2>
 					<p>Get amazing station starting at $20 a ream</p>
-					<input class="number-of-buys" type="number" min="0">
-					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
+					<input class="number-of-buys" type="number" placeholder="0" min="0">
+					<button type="submit" value="submit" onclick="buyIt()" class="buy">Buy</button>
 				</div>
 				<div class="shop-section paper-three">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
-					<input class="number-of-buys" type="number" min="0">
-					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
+					<input class="number-of-buys" type="number" placeholder="0" min="0">
+					<button type="submit" value="submit" onclick="buyIt()" class="buy">Buy</button>
 				</div>
 				<div class="shop-section paper-four">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
-					<input class="number-of-buys" type="number" min="0">
-					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
+					<input class="number-of-buys" type="number" placeholder="0" min="0">
+					<button type="submit" value="submit" onclick="buyIt()" class="buy">Buy</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section>
+<section class="hidden">
 	<div id="contact" class="padding-top-bottom">
 		<div class="container">
 			<h1>Contact</h1>
