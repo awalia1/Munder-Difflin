@@ -17,38 +17,43 @@
 		</nav>
 			<p class="slogan">Where Paper Happens<span class= "blinking-period">.</span></p>
 			<div class="buttons">
-				<button class="sign-up-button">Sign up</button> 
-				<button class="log-in-button">Log In</button>
+				<button class="sign-up-button initial-buttons" onclick="signUp()">Sign up</button> 
+				<button class="log-in-button  initial-buttons" onclick="logIn()">Log In</button>
 			</div>
 		<img class="top-image" src="images/crumpled_paper.jpg">
 	</div>
 
+<section>
 	<div id="about" class="padding-top-bottom">
 		<div class="container">
 			<h1>About Us</h1>
 			<hr>
 			<div class="grid">
 				<iframe src="https://www.youtube.com/embed/mfokPqeSNcw" frameborder="0"  allowfullscreen></iframe>
-				<p class="about-text"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+				<p class="text"> At Munder Difflin our motto is to give our customers the best paper as possible. As one of the first paper companies in American History we were the first to fill America's needs when they needed paper for famous documents like the Decleration of Independence and the Constitution. We are made up of a great team that loves to have fun while doing what they love. MAKING PAPER!</p>
 			</div>
 		</div>
 	</div>
+</section>
 
+<section>
 	<div id="boss" class="padding-top-bottom">
 		<div class="container">
 			<h1>The Boss</h1>
 			<hr>
 			<div class="grid">
 				<div class="regional-manager">
+					<p class="boss-name">Michael Scott</p>
 					<h2>Regional Manager</h2>
-					<p class="name">Michael Scott</p>
-					<p class="regional-manager-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+					<p class="boss-quote">"Society teaches us that having feelings and crying is bad and wrong. Well, that’s baloney, because grief isn’t wrong. There’s such a thing as good grief. Just ask Charlie Brown."</p>
 				</div>
 				<img class="michael-scott-picture" src="images/michael_scott.jpg">
 			</div>	
 		</div>
 	</div>
+</section>
 
+<section>
 	<div class="staff-cards padding-top-bottom">
 		<div class="container">
 			<h1> The Team </h1>
@@ -127,45 +132,66 @@
 			</div>
 		</div>
 	</div>
+</section>
 
+<section>
 	<div id="products" class="padding-top-bottom">
 		<div class="container">
 			<h1>Our Products</h1>
 			<hr>
-			<p class="product-text">We take a tremounds amount of pride in manufracturing the greatest paper in the world. We do everything in house to ensure the best quality of paper for our customers. We put our trees through a vigirous photosynthesis process which leads to better paper. But don't take out word for how great our paper is, read what some of our satisfied customers had to say.</p>
-			<p class="quote">"Their paper was bigly for me throughout my life" - <span class="signature">Donald Trump</span></p>
-			<p class="quote">"Their sales team worked with me day and night to get the best paper for me to sign my new contract with the Lakers" - <span class="signature"> Lebron James </span></p>
+			<div class="products-grid">
+				<img class="grid-picture lbj" src="images/LBJ.jpg" alt="LBJ">
+				<div class="write-up">
+					<p class="text">We take a tremounds amount of pride in manufracturing the greatest paper in the world. We do everything in house to ensure the best quality of paper for our customers. We put our trees through a vigirous photosynthesis process which leads to better paper. But don't take out word for how great our paper is, read what some of our satisfied customers had to say.</p>
+					<p class="quote">"Their paper was bigly for me throughout my life" - <span class="signature">Donald Trump</span></p>
+					<p class="quote">"Their sales team worked with me day and night to get the best paper for me to sign my new contract with the Lakers" - <span class="signature"> Lebron James </span></p>
+				</div>
+				<img class="grid-picture dt" src="images/trump.jpg" alt="D.T.">
+			</div>
+		</div>
 	</div>
+</section>
 
+<section>
 	<div id="shop" class="padding-top-bottom">
 		<div class="container">
 		<h1>Shop</h1>
 		<hr>
 			<div class="shop-grid">
-				<div class="shop-section paper-one">
+				<div class="shop-section paper-one first-two-papers">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
+					<input class="number-of-buys" type="number" min="0">
+					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
 				</div>
-				<div class="shop-section paper-two">
+				<div class="shop-section paper-two first-two-papers">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
+					<input class="number-of-buys" type="number" min="0">
+					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
 				</div>
 				<div class="shop-section paper-three">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
+					<input class="number-of-buys" type="number" min="0">
+					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
 				</div>
 				<div class="shop-section paper-four">
 					<img class="shop-image" src="http://www.wolfgroupweb.com/en/stationery-paper?showimage_bcy=stationery+paper.jpg">
 					<h2>Stationary</h2>
 					<p>Get amazing station starting at $20 a ream</p>
+					<input class="number-of-buys" type="number" min="0">
+					<button type="submit" value="submit" onclick= "buy()" class="buy">Buy</button>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
 
+<section>
 	<div id="contact" class="padding-top-bottom">
 		<div class="container">
 			<h1>Contact</h1>
@@ -173,13 +199,14 @@
 			<div class="grid">
 				<img class="contact-image" src="images/whole_cast.jpg">
 				<div class="contact-information">
-					<p class="contact-text"> Come visit us and our friendly staff. We would love to have you and help you find the best paper solutions to your paper problems.</p>
-					<p>Phone:<a href="tel:555-555-5555">555-555-5555</a></p>
-					<a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank">Email us</a>
+					<p class="text"> Come visit us and our friendly staff. We would love to have you and help you find the best paper solutions to your paper problems.</p>
+					<p class="text">Phone:<a href="tel:555-555-5555">555-555-5555</a></p>
+					<a class="text" href="mailto:someone@example.com?Subject=Hello%20again" target="_blank">Email us</a>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
 
 	<script src="main.js"></script>
 </body>
