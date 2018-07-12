@@ -138,3 +138,55 @@ hr:before { /* Not really supposed to work, but does */
       width: 100%;
     }
 
+#shop {
+    background-color: #EE6E73; 
+}
+
+.shop-grid {
+     margin:auto;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0px;
+}
+
+.shop-section {
+    text-align: center;
+}
+
+.paper-one{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black
+}
+
+.paper-two{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black
+}
+
+.paper-three{
+    border-right: 1px solid black;
+    border-top: 1px solid black
+}
+
+.paper-four{
+    border-left: 1px solid black;
+    border-top: 1px solid black
+}
+
+.shop-image {
+    margin: 25px;
+}
+
+.contact-image{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    margin-left: 90px;
+}
