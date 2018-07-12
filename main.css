@@ -45,7 +45,7 @@ nav li {
 }
 
 .company-name {
-    background: blue !important;
+    background: #008CBA !important;
     padding: 10px;
     font-size: 46px;
 }
@@ -56,31 +56,31 @@ nav li {
 }
 
 #about{
-    margin-top: 300px;
-    background-color: orange;
-    width:100%; 
+    margin-top:280px;
+    background-color:#F6B1B7;
+}
+
+.padding-top-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
     text-align: center;
 }
 
-.about-image {
-    width: 100%;
+iframe {
+    width: 700px;
+    height: 450px;
+    border: none;
 }
 
 .grid{
     margin:auto;
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-gap: 55px
+    grid-gap: 50px;
 }
-
-
-.about-text {
-
-}
-
 
 
 hr{
@@ -91,6 +91,7 @@ hr{
     border-width: 1px 0 0 0;
     border-radius: 20px;
     width: 600px;
+    padding-bottom: 70px;
 }
 hr:before { /* Not really supposed to work, but does */
     display: block;
@@ -103,11 +104,16 @@ hr:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 
+.about-text{
+    font-size:25px;
+}
+
 #staff{
-  
+    
 }
 
 .michael-scott-picture {
+    margin-left: 40px;
     border-radius: 50%;
 }
 
@@ -125,7 +131,7 @@ hr:before { /* Not really supposed to work, but does */
 .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       width: 18%;
-      margin: 15px;
+      margin: 13px;
       border: 2px solid black;
     }
 
@@ -187,6 +193,24 @@ a {
     color:black;
 }
 
+.buttons {
+    margin-left: 240px;
+    margin-top:-40px;
+}
+
 button {
-    margin-left: 90px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.log-in-button{
+    margin-left: 20px;
 }
